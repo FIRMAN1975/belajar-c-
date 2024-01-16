@@ -1,0 +1,14 @@
+/*ini sedang belajar apa itu float dan juga apa itu pengertian karakter dalam %10.5f yang berarti output akan 10 karakter dan 5 bilangan di belakang koma*/
+/*jika karakter belum terpenuhi maka spasi akan memenuhi di depan bilangan agar terpenuhinya nilai dari 10 karakter*/
+#include <stdio.h>
+
+int main() {
+    float f = 0.555;
+    float x = 1.5E3;
+    
+    printf("ini nilai f : %f\n",f);
+    printf("ini nilai f : %0.2f\n",f);
+    printf("ini nilai x : %10.2f\n",x);
+    
+    return 0;
+}
