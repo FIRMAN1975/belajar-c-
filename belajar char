@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+    char c = 65;
+    char c1;
+    
+    printf("karakter = %c\n",c);
+    
+    c1 ='z';
+    printf("karakter = %c\n",c1);
+    
+    printf("karakter dalam kode ASCII = %d\n",c);
+    printf("karakter sebagai huruf = %c\n",c);
+    printf("karakter dalam kode ASCII =%d\n",c1);
+    printf("karakter sebagai huruf =%c\n",c1);
+
+}
