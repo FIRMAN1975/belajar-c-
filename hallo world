@@ -1,0 +1,12 @@
+/* File : halo.c */
+/* Penulis : Firman Ganteng */
+/* Program ini menuliskan "hallo world!" dan "end-of-line"(ganti baris)*/
+/* Source Code ini di tulis manual*/
+#include<stdio.h>
+int
+main(void)
+{/*ini badan program */
+    printf("Hallo world!\n");
+    printf("hallo Firman ganteng\n");
+    printf("ia sayang\n");
+}
